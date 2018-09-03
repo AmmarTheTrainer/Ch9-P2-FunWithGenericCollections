@@ -76,7 +76,7 @@ namespace Ch9_P2_FunWithGenericCollections
             //Console.WriteLine();
             //// removing items
             //Person p2 = setOfPeople.First();
-            
+
             //setOfPeople.Remove(p2);
             //// Still sorted by age!
             //foreach (Person p in setOfPeople)
@@ -84,7 +84,8 @@ namespace Ch9_P2_FunWithGenericCollections
             //    Console.WriteLine(p);
             //}
 
-
+            //bool b =  setOfPeople.Contains(new Person() { Age = 2, FirstName = "amar", LastName = "shoukat" });
+            //Console.WriteLine(b);
         }
 
         private static void UseGenericQueue()

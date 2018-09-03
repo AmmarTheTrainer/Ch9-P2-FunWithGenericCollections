@@ -13,7 +13,7 @@ namespace Ch9_P2_FunWithGenericCollections
             //UseGenericList();
             //UseGenericStack();
             //UseGenericQueue();
-            //UseSortedSet();
+            UseSortedSet();
 
             //UseDictionary();
 
@@ -72,6 +72,19 @@ namespace Ch9_P2_FunWithGenericCollections
             {
                 Console.WriteLine(p);
             }
+
+            //Console.WriteLine();
+            //// removing items
+            //Person p2 = setOfPeople.First();
+            
+            //setOfPeople.Remove(p2);
+            //// Still sorted by age!
+            //foreach (Person p in setOfPeople)
+            //{
+            //    Console.WriteLine(p);
+            //}
+
+
         }
 
         private static void UseGenericQueue()

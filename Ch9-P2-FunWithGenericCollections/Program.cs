@@ -13,9 +13,9 @@ namespace Ch9_P2_FunWithGenericCollections
             //UseGenericList();
             //UseGenericStack();
             //UseGenericQueue();
-            UseSortedSet();
+            //UseSortedSet();
 
-            //UseDictionary();
+            UseDictionary();
 
             Console.ReadLine();
         }
@@ -41,6 +41,20 @@ namespace Ch9_P2_FunWithGenericCollections
                 // Get Lisa.
                 Person lisa = peopleB["Lisa"];
                 Console.WriteLine(lisa);
+
+
+
+            // Populate with dictionary initialization syntax.
+            Dictionary<string, Person> peopleC = new Dictionary<string, Person>()
+            {
+                ["Homer"] = new Person { FirstName = "Homer", LastName = "Simpson", Age = 47 },
+                ["Marge"] = new Person { FirstName = "Marge", LastName = "Simpson", Age = 45 },
+                ["Lisa"] = new Person { FirstName = "Lisa", LastName = "Simpson", Age = 9 }
+            };
+
+            Person p4 = peopleC["Homer"];
+
+            Console.WriteLine(p4);
         }
 
 
